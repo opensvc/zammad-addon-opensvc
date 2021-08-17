@@ -1,0 +1,32 @@
+{
+  "name": "opensvc",
+  "version": "0.1.0",
+  "vendor": "OpenSVC",
+  "license": "AGPL-v3+",
+  "url": "https://www.opensvc.com",
+  "buildhost": "",
+  "builddate": "",
+  "change_log": [
+    {
+      "version": "0.1.0",
+      "date": "",
+      "log": "Initial version."
+    }
+  ],
+  "description": [
+    {
+      "language": "en",
+      "text": "Zammad addon for custom OpenSVC usage"
+    }
+  ],
+  "files": [
+    {
+      "location": "db/addon/opensvc/20210813175700_add_org_support_contract.rb",
+      "permission": 644
+    },
+    {
+      "location": "db/addon/opensvc/20210813180000_add_ticket_customer_priority.rb",
+      "permission": 644
+    }
+  ]
+}
